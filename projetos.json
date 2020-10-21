@@ -28,5 +28,25 @@
     "url": "https://play.google.com/store/apps/details?id=br.com.wpsgames.wpsmoney_free",
     "tag": "APP",
     "categoria": "React Native"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Easy Bank",
+    "img": "https://wpsgames.com.br/img/smartmoney.webp",
+    "body":"Hotsite de promoção do app Smart Money",
+    "url": "https://wpsgames.com.br/sites/wpsmoney/",
+    "tag": "Site",
+    "categoria": "Bootstrap 4"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "Correia Jr",
+    "img": "https://wpsgames.com.br/img/correiajr.png",
+    "body":"Site para campanha de um candidato a vereador de São Paulo 30.555",
+    "url": "https://correiajr.com.br/",
+    "tag": "Site",
+    "categoria": "Bootstrap 4"
   }
 ]

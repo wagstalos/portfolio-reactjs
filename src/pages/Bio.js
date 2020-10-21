@@ -15,7 +15,7 @@ const Equipe = (props) => {
   const Sobre = (props) => {
     return (
         <div>
-            <img src={imageAvatar} alt='Logo da aplicação' />
+            <img className="rounded" src={imageAvatar} alt='Imagem do autor' />
             <h1>{props.nome} </h1>
             <div>
               <FaHtml5 className="mr" size={26} color="#ff754d" /> 
@@ -23,8 +23,10 @@ const Equipe = (props) => {
               <FaJsSquare className="mr" size={26} color="#FFEB3B" /> 
               <FaReact size={26} color="#57b7ef" /> 
             </div>
-            <h3>{props.cargo} </h3>
+            <h3 className="purple">{props.cargo} </h3>
             <p> {props.info} </p> 
+            <img src="https://camo.githubusercontent.com/a7597898fc41706ea4c787223f3a787f28d9955f/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d7761677374616c6f732673686f775f69636f6e733d74727565267468656d653d746f6b796f6e69676874" alt="stats github" />
+            <img className="mt" src="https://camo.githubusercontent.com/48329a1d133d86c17b21ad072c99fb3e1f1e3a9d/68747470733a2f2f6769746875622d726561646d652d73746174732e7361626573616e73617468616e616e7468616e2e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d7761677374616c6f73266c61796f75743d636f6d70616374267468656d653d746f6b796f6e69676874" alt="Most used languages"/>
         </div>
     );
   }
@@ -32,9 +34,9 @@ const Equipe = (props) => {
   const Social = (props) => {
     return (
         <div className="center">
-            <a href={props.facebook} target="blank" ><FaFacebookSquare className="mr" size={26} color="#5e9fed" /> </a>
-            <a href={props.linkedin} target="blank" ><FaLinkedin className="mr" size={26} color="#5e9fed" /> </a>
-            <a href={props.github}   target="blank" ><FaGithubAlt size={26} color="#5e9fed" /> </a>
+            <a href={props.facebook} target="blank" ><FaFacebookSquare className="mr" size={26} color="#fff" /> </a>
+            <a href={props.linkedin} target="blank" ><FaLinkedin className="mr" size={26} color="#fff" /> </a>
+            <a href={props.github}   target="blank" ><FaGithubAlt size={26} color="#fff" /> </a>
         </div>
     );
   }
