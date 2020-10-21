@@ -1,0 +1,32 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "Embaixadinhas",
+    "img": "https://wpsgames.com.br/img/jogo1.jpg",
+    "body": "Faça o máximo de embaixadinhas que conseguir ",
+    "url": "https://wpsgames.com.br/ambienteservidor/inventarioGames/jogos/Desafio54-Ipad/index.html",
+    "tag": "Game",
+    "categoria": "Esportes"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "Diabetes",
+    "img": "https://wpsgames.com.br/img/jogo2.jpg",
+    "body":"Corrida contra a Diabetes",
+    "url": "https://wpsgames.com.br/jogos/jogodiabetes/",
+    "tag": "Game",
+    "categoria": "Saúde"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "WPS Money",
+    "img": "https://wpsgames.com.br/img/wps-money.png",
+    "body":"Aplicativo Smart Money",
+    "url": "https://play.google.com/store/apps/details?id=br.com.wpsgames.wpsmoney_free",
+    "tag": "APP",
+    "categoria": "React Native"
+  }
+]

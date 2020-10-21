@@ -9,7 +9,7 @@ function App() {
     return(
       <div className="container">
         <header>
-          <strong>Portfolio</strong>
+          <strong>Portfólio</strong>
         </header>
           <Bio />
           <Projects />

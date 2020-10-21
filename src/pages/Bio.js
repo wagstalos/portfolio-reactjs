@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Bio.css';
-import { FaFacebook, FaGithubAlt, FaLinkedinIn} from 'react-icons/fa';
+import { FaFacebookSquare, FaGithubAlt, FaLinkedin, FaHtml5, FaCss3Alt, FaJsSquare, FaReact} from 'react-icons/fa';
 import imageAvatar from '../img/avatar.png';
 
 const Equipe = (props) => {
@@ -14,15 +14,17 @@ const Equipe = (props) => {
   
   const Sobre = (props) => {
     return (
-        <div className="flex">
-          <div className="flex-item-1">
+        <div>
             <img src={imageAvatar} alt='Logo da aplicação' />
-          </div>
-          <div className="flex-item-1">
-            <h2>{props.nome} </h2>
-            <h3>Profissional: {props.cargo} </h3>
-            <p>Sobre: {props.info} </p>
-          </div>
+            <h1>{props.nome} </h1>
+            <div>
+              <FaHtml5 className="mr" size={26} color="#ff754d" /> 
+              <FaCss3Alt className="mr" size={26} color="#2965F1" /> 
+              <FaJsSquare className="mr" size={26} color="#FFEB3B" /> 
+              <FaReact size={26} color="#57b7ef" /> 
+            </div>
+            <h3>{props.cargo} </h3>
+            <p> {props.info} </p> 
         </div>
     );
   }
@@ -30,28 +32,27 @@ const Equipe = (props) => {
   const Social = (props) => {
     return (
         <div className="center">
-            <a href={props.facebook} target="blank" ><FaFacebook size={26} color="rgba(255,117,77,1)" /> </a>
-            <a href={props.linkedin} target="blank" ><FaLinkedinIn size={26} color="rgba(255,117,77,1)" /> </a>
-            <a href={props.github}   target="blank" ><FaGithubAlt size={26} color="rgba(255,117,77,1)" /> </a>
+            <a href={props.facebook} target="blank" ><FaFacebookSquare className="mr" size={26} color="#5e9fed" /> </a>
+            <a href={props.linkedin} target="blank" ><FaLinkedin className="mr" size={26} color="#5e9fed" /> </a>
+            <a href={props.github}   target="blank" ><FaGithubAlt size={26} color="#5e9fed" /> </a>
         </div>
     );
   }
 
 function Bio(){
     return(
-        <div> 
-            <div>
-            <div>
-                <Equipe 
-                nome="Wagner Paulo" 
-                cargo="Game Developer" 
-                info="Olá, Sou Wagner Paulo, profissional da área Desenvolvimento Web e Games formado em Design Gráfico(UNIP) e Desenvolvimento Jogos Digitais(ETEC)."
-                facebook="https://www.facebook.com/wagstalos" 
-                linkedin="https://www.linkedin.com/in/wagner-silva-6a163555/"
-                github="https://github.com/wagstalos"/>
-            </div>
+      <div>
+        <div>
+          <Equipe 
+            nome="Wagner Paulo" 
+            cargo="Game Developer | Des. Front-end" 
+            info="Olá, sou Wagner Paulo, profissional da área Desenvolvimento Web e Games, formado em Design Gráfico(UNIP) e Desenvolvimento Jogos Digitais(ETEC)."
+            facebook="https://www.facebook.com/wagstalos" 
+            linkedin="https://www.linkedin.com/in/wagner-silva-6a163555/"
+            github="https://github.com/wagstalos"/>
         </div>
-        </div>
+        
+      </div>
     )
 }
 

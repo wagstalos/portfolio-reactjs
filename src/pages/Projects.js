@@ -21,7 +21,7 @@ class Projects extends Component {
         console.log(json);
       })
     }
-  
+
     render() {
       return(
         <div className="container">
@@ -29,12 +29,12 @@ class Projects extends Component {
            
             {this.state.projects.map((item)=>{
             return(
-              <article key={item.id} className="post">
+              <article key={item.id} className="post mt">
                 <img className="capa" src={item.img} alt={item.title} />
-                <strong className="titulo">{item.title}</strong>
+                <strong className="titulo mt">{item.title}</strong>
                 <p className='subtitulo'> {item.body} </p>
                 <div className="flex">
-                  <p className='tag' >{item.tag} </p>
+                  <p className='tag'>{item.tag} </p>
                   <p className='tag categoria'>{item.categoria} </p>
                 </div>
                 <a className="botao" href={item.url} >Veja mais </a>
