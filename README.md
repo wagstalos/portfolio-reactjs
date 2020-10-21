@@ -1,6 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Projeto pessoal criação de portfólio com ReactJS
+
+##Techs
+*React JS
+*Json
+
+
+link projeto: https://wpsgames.com.br/sites/reactjs/portfolio/
 
 In the project directory, you can run:
 
