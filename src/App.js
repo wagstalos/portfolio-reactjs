@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles/App.css';
 
-import Bio from './pages/Bio';
-import Projects from './pages/Projects';
+import Bio from './components/Bio';
+import Projects from './components/Projects';
 
 function App() {
   
@@ -13,7 +13,7 @@ function App() {
         </header>
           <Bio />
           <Projects />
-          
+
         <footer className="column">
           <div>
           <p>Desenvolvido por Wagner Paulo</p>  
@@ -22,7 +22,6 @@ function App() {
         </footer>
       </div>
     );
-
 }
 
 export default App;

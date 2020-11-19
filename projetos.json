@@ -7,7 +7,7 @@
     "body": "Faça o máximo de embaixadinhas que conseguir ",
     "url": "https://wpsgames.com.br/ambienteservidor/inventarioGames/jogos/Desafio54-Ipad/index.html",
     "tag": "Game",
-    "categoria": "Esportes"
+    "categoria": "Construct 3"
   },
   {
     "albumId": 1,
@@ -17,7 +17,7 @@
     "body":"Corrida contra a Diabetes",
     "url": "https://wpsgames.com.br/jogos/jogodiabetes/",
     "tag": "Game",
-    "categoria": "Saúde"
+    "categoria": "Construct 3"
   },
   {
     "albumId": 1,
@@ -48,5 +48,15 @@
     "url": "https://correiajr.com.br/",
     "tag": "Site",
     "categoria": "Bootstrap 4"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "Criar de memes",
+    "img": "https://wpsgames.com.br/img/meme.webp",
+    "body":"Gerador de Memes divertidos",
+    "url": "https://wpsgames.com.br/sites/criar-memes/",
+    "tag": "Site",
+    "categoria": "ReactJS"
   }
 ]

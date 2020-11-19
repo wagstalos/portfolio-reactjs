@@ -25,11 +25,11 @@ class Projects extends Component {
     render() {
       return(
         <div className="container">
-            <h1>Projetos</h1>
+            <h1 className="mt">Projetos</h1>
            
             {this.state.projects.map((item)=>{
             return(
-              <article key={item.id} className="post mt">
+              <article className="mt" key={item.id} className="post mt">
                 <img className="capa" src={item.img} alt={item.title} />
                 <strong className="titulo mt">{item.title}</strong>
                 <p className='subtitulo'> {item.body} </p>

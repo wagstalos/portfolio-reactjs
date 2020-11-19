@@ -1,3 +1,8 @@
+h1{
+  font-size: 38px;
+  line-height: 50px;
+  margin-bottom: -15px;
+}
 .purple{
   color:#ab7bff;;
 }
@@ -11,30 +16,26 @@
     color: aliceblue;
     text-align: center;
     margin-right: 10px;
-    /* -webkit-box-shadow: 0px 0px 10px 3px rgba(173, 173, 173, .3);
-    -moz-box-shadow: 0px 0px 10px 3px rgba(173, 173, 173, .3);
-    box-shadow: 0px 0px 10px 3px rgba(173, 173, 173, .3); */
   }
 .rounded{
     border-radius:100%;
     width: 150px;
-    border: #5e9fed  solid 4px;
+    border: #5e9fed  solid 7px;
 }
-  .flex {
+.flex {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-  }
-  .flex-item-1 {
-      flex: 1;
-  }
-  a:-webkit-any-link {
-      text-decoration: none;
-  }
-  .center{
+}
+.flex-item-1 {
+    flex: 1;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.center{
     text-align: center!important;
     margin-top: 5px;
-  }
+}
 .column{
     display: flex;
     flex-direction: column;
@@ -42,3 +43,65 @@
 .mr{
   margin-right: 15px;
 }
+.ml{
+  margin-left: 10px;
+}
+.img-90{
+  width: 90%;
+}
+button{
+  background: #03A9F4;
+  border-radius: 10px;
+  border: 2px solid #03A9F4;
+  /* color: #5e9fed; */
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.5s;
+  margin: 10px;
+}
+button:hover{
+  background-color: #1A1B27;
+  border: 2px solid azure;
+  color: #5e9fed;
+}
+button a {
+  color: azure;
+}
+
+.blob {
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+}
+
+.blob.blue {
+  background: rgba(52, 172, 224, 1);
+  box-shadow: 0 0 0 0 rgba(52, 172, 224, 1);
+  animation: pulse-blue 2s infinite;
+}
+
+@keyframes pulse-blue {
+  0% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+}
+  
+70% {
+  transform: scale(1);
+  box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+}
+  
+100% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+  }
+}
+  
