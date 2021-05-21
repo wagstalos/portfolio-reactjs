@@ -28,27 +28,8 @@
 .subtitulo{
     margin:20px;
 }
-.botao{
-    height: 40px;
-    background: none;
-    border-radius: 15px;
-    border: 2px solid #5e9fed;
-    /* background-color: #cee1f9; */
-    color: #5e9fed;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    padding: 5px;
-    align-items: center;
-    transition: all 0.5s;
-    margin: 10px;
-}
-.botao:hover{
-    background-color: #cee1f9;
-    color: #5e9fed;
-}
+
+
 .tag{
     margin-left: 20px;
     padding: 0 15px 0 15px;

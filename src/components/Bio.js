@@ -26,6 +26,7 @@ const Sobre = (props) => {
       </div>
       <button className="text-center mt" > 
         <a href="curriculo_wagner.pdf" download="curriculo_wagner.pdf"> Download CV</a>
+        <a href="http://projetos.dpcontent.com.br/DPContent/poc/btg/download/pdf/exame.pdf" download="curriculo_wagner.pdf"> Download CV</a>
         <FaDownload className="ml" size={18} color="#FFF" />
       </button>
       <p className="mt"> {props.info} </p>
